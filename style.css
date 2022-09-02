@@ -170,6 +170,7 @@ p {
   box-shadow: -19px 1px 40px 0px rgb(0 0 0 / 6%);
   border: 1px solid #cce7d0;
   border-radius: 4px;
+  height: 200px;
   margin: 15px 0;
 }
 #feature .fe-box:hover {
@@ -235,14 +236,14 @@ p {
   color: #1a1a1a;
   font-size: 14px;
 }
-#product1 .pro .des i {
+.pro .des i {
   font-size: 12px;
   color: rgb(243, 181, 25);
 }
-#product1 .pro .des i:hover {
+.pro .des i:hover {
   transform: scale(1.4);
 }
-#product1 .pro .des h4 {
+.pro .des h4 {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
@@ -259,6 +260,19 @@ p {
   border: 1px solid #cce7d0;
   bottom: 20px;
   right: 10px;
+}
+.cart2 {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  position: absolute;
+  color: #088178;
+  bottom: 20px;
+  right: 10px;
+}
+.cart2:hover {
+  transform: scale(1.5);
 }
 /* TO ALL FEATURED PRODUCTS ENDS */
 /* TO ALL BANNER STARTS */
@@ -630,6 +644,17 @@ footer .copyright {
   height: 18px;
   width: 100%;
 }
+
+/* MODAL STARTS */
+
+/* .pro-space{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* MODAL ENDS */
+
 /* MEDIA QURIES */
 @media (max-width: 799px) {
   #navbar {
@@ -679,6 +704,7 @@ footer .copyright {
   }
   #feature .fe-box {
     margin: 15px 15px;
+    height: 170px;
   }
   #product1 .pro-container {
     justify-content: center;
