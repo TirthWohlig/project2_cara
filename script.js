@@ -4,4 +4,3 @@ document.querySelector("#bar").onclick = () => {
 document.querySelector("#close").onclick = () => {
   navbar.classList.remove("active");
 };
-

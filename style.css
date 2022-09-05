@@ -271,9 +271,7 @@ p {
   bottom: 20px;
   right: 10px;
 }
-.cart2:hover {
-  transform: scale(1.5);
-}
+
 /* TO ALL FEATURED PRODUCTS ENDS */
 /* TO ALL BANNER STARTS */
 #banner {
@@ -406,7 +404,7 @@ p {
   padding-bottom: 15px;
   font-weight: 500;
 }
-#sm-banner .banner-box:hover button {
+#sm-banner .banner-box:hover .outline {
   background-color: #088178;
   border: 1px solid #088178;
 }
