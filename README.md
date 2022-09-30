@@ -22,7 +22,7 @@ https://oakbrace.co.uk
 Install my-project with with git-clone
 
 ```bash
-  git clone https://github.com/TirthWohlig/project2_cara.git
+git clone https://github.com/TirthWohlig/project2_cara.git
 ```
 ```
 cd project2_cara/
